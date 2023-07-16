@@ -54,3 +54,7 @@ docker image rm node:18
    ```
    ### Port mapping
 7. **Docker create -p27017:27017** 
+8. **Docker logs** mensaje por la terminal de su imagen
+   ```sh
+   docker logs
+   ```
