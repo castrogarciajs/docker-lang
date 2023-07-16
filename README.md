@@ -35,3 +35,12 @@ docker image rm node:18
    ````sh
    docker start id
    ````
+3. **Docker ps** Me devuelve los contenedores que tengo ejecutando
+   ```sh
+   docker ps
+   ```
+
+4. **Docker stop id-container** Detiene el contenedor
+   ```sh
+   docker stop id-container
+   ```
