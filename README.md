@@ -44,3 +44,11 @@ docker image rm node:18
    ```sh
    docker stop id-container
    ```
+5. **Docker rm name-container** Elimina el contenedor mediante su imagen
+   ```sh
+   docker rm name-container
+   ```
+6. **Docker create --name name-container base-image** cambiar nombre del contenedor
+   ```sh
+   docker create --name name-container base-image
+   ```
