@@ -14,3 +14,9 @@ docker images
 ````sh
 docker pull <images>
 ````
+
+3. **Docker image rm <image:version>** Elimina una imagen
+
+```sh
+docker image rm node:18
+```
