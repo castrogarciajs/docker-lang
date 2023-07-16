@@ -52,3 +52,5 @@ docker image rm node:18
    ```sh
    docker create --name name-container base-image
    ```
+   ### Port mapping
+7. **Docker create -p27017:27017** 
