@@ -59,3 +59,17 @@ docker image rm node:18
    ```sh
    docker logs
    ```
+
+## REDES
+
+1. **docker network ls** Listar las redes
+
+```sh
+docker network ls
+```
+
+2. **docker network create name-red** Crear redes
+
+```sh
+docker network create name-red
+```
