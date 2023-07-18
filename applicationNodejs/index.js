@@ -12,7 +12,7 @@ const Animal = mongoose.model(
 const app = express();
 
 mongoose.connect(
-  "mongodb://sebastian:password@monguito:27017/miapp?authSource=admin"
+  "mongodb://sebastian:password@localhost:27017/miapp?authSource=admin"
 );
 
 app.get("/", async (_req, res) => {
