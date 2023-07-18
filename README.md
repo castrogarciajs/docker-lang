@@ -73,3 +73,9 @@ docker network ls
 ```sh
 docker network create name-red
 ```
+
+3. **Docker network rm name-red** elimina una red
+
+```sh
+docker network rm name-red
+```
