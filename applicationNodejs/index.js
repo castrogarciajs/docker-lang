@@ -11,7 +11,9 @@ const Animal = mongoose.model(
 
 const app = express();
 
-mongoose.connect("mongodb://127.0.0.1:27017/dockerexample");
+mongoose.connect(
+  "mongodb://sebastian:password@monguito:27017/miapp?authSource=admin"
+);
 
 app.get("/", async (_req, res) => {
   console.log("listando... chanchitos...");
